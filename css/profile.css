@@ -1,0 +1,52 @@
+:root {
+  --dark-color: #19283f;
+  --green-color: #33d1cc;
+  --red-color: #ff3150;
+  --yellow-color: #ffc400;
+  --section-color: #eff7fa;
+
+  --bg-color: #1f242d;
+  --second-bg-color: #323946;
+  --main-color: #7cf03d;
+  --white-color: #fff;
+  --disabled-color: #fff3;
+}
+.main-content-information {
+  background-color: var(--second-bg-color);
+  background-color: #14181f;
+  border-radius: 10px;
+}
+
+/* .info-details h3 {
+  color: var(--main-color);
+} */
+.user-image {
+  overflow: hidden;
+
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+}
+.info-details .user-email {
+  color: var(--main-color);
+}
+.comment-count {
+  color: var(--main-color);
+}
+.user-image img {
+  transition-duration: 0.3s;
+  width: 100%;
+  height: 100%;
+}
+.user-image img:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+@media (min-width: 768px) {
+  /* .user-image {
+    width: 20% !important;
+  } */
+  /* .user-image img {
+    width: 100% !important;
+  } */
+}
